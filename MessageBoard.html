@@ -1,0 +1,48 @@
+<html>
+<header>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</header>
+<style>
+.Tbl1 {border:1px solid gray;border-collapse: collapse;width:100%;}
+.Tbl1 td {border:1px solid gray;}
+.Tbl1 input[type="text"] {width:100%;border:none;}
+.Tbl1 textarea {border:none;width:100%;height:100%;}
+.btn {border:1px solid blue;background-color:lightblue;cursor:pointer;}
+</style>
+<script>
+</script>
+<body>
+<div style="width:30%;">
+MessageBoard 
+	<table class="Tbl1">
+		<colgroup>
+			<col  width="20%"/>
+			<col  width="80%"/>
+		</colgroup>
+		<tr>
+			<td>姓名 :</td>
+			<td><input id="name" type="text" value=""/></td>
+		</tr>
+		<tr>
+			<td>性別:</td>
+			<td>
+				男:<input name="gender" type="radio" value="M" checked/>
+				女:<input name="gender" type="radio" value="F" />
+			</td>
+		</tr>
+		<tr>
+			<td>主題 :</td>
+			<td><input type="text" value="" /></td>
+		</tr>
+		<tr>
+			<td>內容	:</td>
+			<td style="height:100px;"><textarea id ="Message" ></textarea></td>
+		</tr>
+	</table>
+	<div style="float:right;padding-top:5px;">
+		<span class="btn">Send</span>
+		<span class="btn">Clear</span>
+	</div>
+</div>
+</body>
+</html>
